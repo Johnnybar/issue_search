@@ -1,2 +1,4 @@
-How to run:
-‘node bundle-server’, then ob second terminal tab run ‘node index.js’. Go to localhost:8080 to check app.
+GitHub issueSearch:
+
+Allows users to search for repos or issues on GitHub, based on Repo or Username.
+When issues are found, the user can check out issue details and details regarding the issue.
