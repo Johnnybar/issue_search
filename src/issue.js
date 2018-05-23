@@ -10,7 +10,6 @@ export default class Issue extends React.Component {
   componentDidMount() {
     const id = this.props.params.splat;
     this.getIssueInfo(id);
-
   }
   getIssueInfo(id) {
     const url = id;

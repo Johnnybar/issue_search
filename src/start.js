@@ -9,7 +9,6 @@ const router = (
         <Route path="/" component={App}/>
         <Route path="/issue/*" component ={Issue} />
     </Router>
-
 );
 
 ReactDOM.render(
