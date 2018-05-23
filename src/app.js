@@ -13,10 +13,7 @@ export default class App extends React.Component {
     this.submitNameAndRepo = this.submitNameAndRepo.bind(this);
     this.fetchRepoIssues = this.fetchRepoIssues.bind(this)
     this.handleKeyPress = this.handleKeyPress.bind(this)
-
   }
-  componentDidMount() {}
-
   //Function allows search to run on enter
   handleKeyPress(e) {
     if (event.key == 'Enter') {
